@@ -1,0 +1,1 @@
+// in this we find a pivot element in an shorted roted array which is smallest.
