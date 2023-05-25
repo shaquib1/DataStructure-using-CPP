@@ -12,7 +12,6 @@ long long int tempsqrt(int n){
     while(s<=e){
 
       long long  int square=m*m;
-
         if(square==n)
         return m;
 
