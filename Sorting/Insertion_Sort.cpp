@@ -1,55 +1,62 @@
 
-//insertion sort by which we can sort an array in which time complaxity is very less than other sorting algorithm.
-
-
+// insertion sort by which we can sort an array in which time complaxity is very less than other sorting algorithm.
 #include <iostream>
 using namespace std;
 
+void insertionsort(int arr[], int n)
+{
 
-void insertionsort(int n, int arr[]){
+    int i, j;
 
-    int i,j;
+    for (i = 1; i < n; i++)
+    {
 
-for( i=1; i<n; i++)
-int temp=arr[i];
+        int temp = arr[i];
 
+        for (j = i - 1; j >= 0; j--)
+        {
 
-for(j=i-1; j>=0; j--){
+            if (arr[j] > temp)
+            {
 
-if(arr[j]>temp){
+                arr[j + 1] = arr[j];
+            }
+            else
+            {
+                break;
+            }
 
-    arr[j+1]=arr[j];
-}else{
-    break;
+            arr[j + 1] = arr[j];
+        }
+        arr[j + 1] = temp;
+    }
+
+    cout << "After sorting array : " << endl;
+
+    for (int i = 0; i < n; i++)
+    {
+        cout << arr[i]
+             << " ";
+    }
 }
 
-arr[j+1]=arr[j];
-}
+int main()
+{
 
-for(int i=0; i<n-1; i++){
-    cout<<"arr[i]"<<" ";
-}
-    
-}
+    int arr[100];
+    int n;
+    cout << "enter the size of the array : ";
 
+    cin >> n;
 
-int main(){
+    cout << "enter the elements of the array : ";
+    for (int i = 0; i < n; i++)
+    {
 
-int arr[100];
-int n;
-cout<<"enter the size of the array : ";
+        cin >> arr[i];
+    }
 
-cin>>n;
-
-cout<<"enter the elements of the array : ";
-for(int i=0; i<n; i++){
-
-    cin>>arr[i];
-}
-
-
-insertionsort(n,arr);
-
+    insertionsort(arr, n);
 
     return 0;
 }
