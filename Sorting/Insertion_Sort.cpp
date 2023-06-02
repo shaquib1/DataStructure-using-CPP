@@ -1,5 +1,7 @@
 
 // insertion sort by which we can sort an array in which time complaxity is very less than other sorting algorithm.
+// in this sorting we shift element not swaping remember 
+
 #include <iostream>
 using namespace std;
 
@@ -31,7 +33,7 @@ void insertionsort(int arr[], int n)
         arr[j + 1] = temp;
     }
 
-    cout << "After sorting array : " << endl;
+    cout << "Sorted array is : " << endl;
 
     for (int i = 0; i < n; i++)
     {
