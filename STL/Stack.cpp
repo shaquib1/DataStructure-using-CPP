@@ -3,7 +3,8 @@
 #include <stack>
 using namespace std;
 
-int main(){
+int main()
+{
 
     stack<string> s;
     s.push("shaquib");
@@ -11,17 +12,17 @@ int main(){
     s.push("shreya");
     s.push("prachi");
 
-   cout<<"print top element:"<<s.top()<<endl;
+    cout << "print top element:" << s.top() << endl;
 
-   s.pop();
+    s.pop();
 
-  // after deleting element check size of stack
+    // after deleting element check size of stack
 
-  cout<<"size of stack : "<<s.size()<<endl;
+    cout << "size of stack : " << s.size() << endl;
 
-  //check stack empty or not 
+    // check stack empty or not
 
-  cout<<"stack empty or not : "<<s.empty();
+    cout << "stack empty or not : " << s.empty();
 
     return 0;
 }
