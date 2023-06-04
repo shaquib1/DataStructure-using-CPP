@@ -32,12 +32,14 @@ int main(){
 
 
     //to erase element from deque use erase();
+    //in which you tell you want to erase element in range or single element
 
-    d.erase(d.begin(),d.begin()+1);  //it means delete 1st element
-    //now we check size of the deque we find 1 size is decrease 
+    d.erase(d.begin(),d.begin()+2);  //it means delete 1st element
+    
+    //now we check size of the deque we find 1 size is decrease because 1 element is erase 
+      cout<<"after erase size of deque : "<<d.size();
 
-    cout<<"after erase size of deque : "<<d.size();
-
+       
 
     return 0;
 }
