@@ -33,5 +33,9 @@ int main()
     }
     cout << endl;
 
-        return 0;
+    cout << "check element is present or not : " << m.count(3) << endl;
+
+    // learn iterator and implement some more example
+
+    return 0;
 }
