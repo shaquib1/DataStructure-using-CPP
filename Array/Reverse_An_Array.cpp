@@ -1,39 +1,66 @@
 
+// method 1
+/*
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+  int arr[20];
+  int size;
+  cout << "Enter the size of the array: " << endl;
+  cin >> size;
+  cout << "Enter the elements of the array: " << endl;
+  for (int i = 0; i < size; i++)
+  {
+    cin >> arr[i];
+
+  }
+
+    cout<<"After reverse : ";
+  for (int i = size-1; i >= 0; i--)
+  {
+    cout << arr[i] << " ";
+  }
+
+  return 0;
+}
+*/
+
+// method 2
 
 #include <iostream>
 using namespace std;
 
+int main()
+{
 
-void reverse(int arr[], int n){
-
-    int start=0;
-    int end=n-1;
-
-    while(start<=end){
-        swap(arr[start],arr[end]);
-        start++;
-        end--;
-    }
-}
-
-  void printarr(int arr[], int n){
-    for(int i=0; i<n; i++){
-        cout<<arr[i]<<" ";
-    }
+  int arr[100];
+  int size;
+  cout << "Enter the size of the array: ";
+  cin >> size;
+  cout << "Enter the elements of the array: ";
+  for (int i = 0; i < size; i++)
+  {
+    cin >> arr[i];
   }
 
-int main(){
+  int start = 0;
+  int end = size - 1;
 
-// int n;
-// int arr[10];
-// cout<<"Enter the element:";
-// for(int i=0; i<10; i++){
-//     cin>>arr[i];
-// }
+  while (start < end)
+  {
+    swap(arr[start], arr[end]);
+    start++;
+    end--;
+  }
 
-int arr[10] ={4,78,4,877,7,56,32,25,79,36};
+  cout << "after reverse the array: ";
+  for (int i = 0; i < size; i++)
+  {
+    cout << arr[i] << " ";
+  }
 
-  reverse(arr,10);
-  printarr(arr,10);
-
+  return 0;
 }
