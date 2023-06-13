@@ -28,7 +28,7 @@ void coloum_sum(int arr[][4], int i, int j)
         {
             sum += arr[j][i];
         }
-        cout << sum<<" ";
+        cout << sum << " ";
     }
 }
 
@@ -55,10 +55,10 @@ int main()
         cout << endl;
     }
 
-    cout << "row wise sum : "<<endl;
+    cout << "row wise sum : " << endl;
     row_sum(arr, 3, 4);
 
-    cout << "coloumn wise sum: "<<endl;
+    cout << "coloumn wise sum: " << endl;
     coloum_sum(arr, 3, 4);
 
     return 0;
