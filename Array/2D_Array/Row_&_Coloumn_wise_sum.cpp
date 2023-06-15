@@ -4,8 +4,6 @@ using namespace std;
 void row_sum(int arr[][4], int i, int j)
 {
 
-    int sum = 0;
-
     for (int i = 0; i < 3; i++)
     {
         int sum = 0;
@@ -18,8 +16,6 @@ void row_sum(int arr[][4], int i, int j)
 }
 void coloum_sum(int arr[][4], int i, int j)
 {
-
-    int sum = 0;
 
     for (int i = 0; i < 4; i++)
     {
