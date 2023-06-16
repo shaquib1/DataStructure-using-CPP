@@ -28,6 +28,32 @@ int RowMaxSum(int arr[][3], int i, int j)
     return index;
 }
 
+int ColMaxSum(int arr[][3], int i, int j)
+{
+
+    int max = INT_MIN;
+    int index = -1;
+
+    for (int j = 0; j < 3; j++)
+    {
+        int sum = 0;
+        for (int i = 0; i < 3; i++)
+        {
+            sum = sum + arr[i][j];
+        }
+
+        if (sum > max)
+        {
+            max = sum;
+            index = j;
+        }
+    }
+
+    cout << "maximum col value: " << max << endl;
+
+    return index;
+}
+
 int main()
 {
 
@@ -56,6 +82,10 @@ int main()
     int ans = RowMaxSum(arr, 3, 3);
 
     cout << "maximum sum row index: " << ans << endl;
+
+    int colAns = ColMaxSum(arr, 3, 3);
+
+    cout << "maximum col index: " << colAns << endl;
 
     return 0;
 }
