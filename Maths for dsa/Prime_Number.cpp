@@ -11,11 +11,9 @@ bool isPrime(int num)
         {
             return false;
         }
-        
+
         return true;
     }
-
-    
 }
 
 int main()
@@ -25,15 +23,16 @@ int main()
     cout << "Enter the number: ";
     cin >> num;
 
-    //int ans = isPrime(num);
-   // cout << "Number is prime or not: " << ans << endl;
+    // int ans = isPrime(num);
+    // cout << "Number is prime or not: " << ans << endl;
 
-    if(isPrime(num)){
-        cout<<"Number is Prime";
-
+    if (isPrime(num))
+    {
+        cout << "Number is Prime";
     }
-    else{
-        cout<<"Number is not Prime";
+    else
+    {
+        cout << "Number is not Prime";
     }
 
     return 0;
