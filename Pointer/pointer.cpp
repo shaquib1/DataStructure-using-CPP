@@ -19,7 +19,13 @@ int main()
     //declaration of a ponter 
 
     int *ptr=&num;
-    cout<<"address of num :"<<ptr;
+    cout<<"address of num :"<<ptr<<endl;
+    cout<<"this print original value of num :"<<*ptr;
+
+    // here num and *ptr give the same value
+    cout<<"address of num: "<<&num<<endl;
+    cout<<"value is : "<<*ptr<<endl;
+    cout<<"value of num: "<<num<<endl;
 
     return 0;
 }
