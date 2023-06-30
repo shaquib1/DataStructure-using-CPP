@@ -38,5 +38,28 @@ int main()
     cout<<"Address of d:"<<ptr<<endl;
     cout<<"vaule is: "<<*pt<<endl;
 
+
+    //checking size 
+
+    cout<<"size of integer: "<<sizeof(num)<<endl;
+    cout<<"size of pointer: "<<sizeof(ptr)<<endl;  //becaue it contains address of a numnber
+    cout<<"size of pointer: "<<sizeof(pt)<<endl;  //becaue it contains address of a numnber
+
+
+// another way to declear pointer
+
+int t=9;
+
+int *p=&t;
+cout<<p<<endl;
+cout<<*p<<endl;
+
+// another way but smae output
+int *q=0;
+q=&t;
+
+cout<<q<<endl;
+cout<<*q<<endl;
+
     return 0;
 }
