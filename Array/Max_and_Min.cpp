@@ -36,6 +36,6 @@ for(int i=0; i<size; i++){
 
 cout<<"Max value:"<<getMax( arr, size)<<"\n";
 cout<<"Min value:"<<getMin( arr, size);
-
+cout<<"diff is: "<<getMax(arr,size)-getMin(arr,size);
 
 }
