@@ -38,7 +38,7 @@ int main()
 
     int arr[5] = {4, 8, 9, 14, 25};
 
-    int findIndex = binaryseach(arr, 5, 14);
+    int findIndex = binaryseach(arr, 5, 25);
     cout << "index of key is : " << findIndex << endl;
 
     return 0;
