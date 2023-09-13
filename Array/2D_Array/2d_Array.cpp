@@ -25,7 +25,6 @@ int main()
         }
 
 
-
         // taking input from user -> coloume wise input
         for (int i = 0; i < 4; i++)
         {
