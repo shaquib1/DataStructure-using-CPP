@@ -1,20 +1,33 @@
+// Getter and setter function are used to use private datamembers from a class to out of the class
+
 #include <iostream>
 using namespace std;
 
-class Getter_setter{
-    public:
+class Hero{
+
+  // properties
+
+    private:
    int health;
 
-   private:
-   int name;
+   public:
+   int level;
 
 
-   int getter(){
-    return name;
+   int getHealth(){   // creating getter funciton 
+    return health;
    }
 
-   void setter(int health){
-        health = 234;
+   int getLevel(){
+        return level;
+   }
+
+   void setterHealth(int h){    // creating setter function
+       health = h;
+   }
+
+   void setterLevel(int l){
+    level =l;
    }
 };
 
@@ -22,9 +35,13 @@ int main(){
 
 // create object of the Getter_setter class
 
-Getter_setter obj;
+Hero mgobj;
 
-  cout<<"we can access private data member"<<obj.getter();
+  cout<<"we can access private data member : "<<mgobj.getHealth()<<endl;  // it means we get private data member 
+
+
+ mgobj.setterHealth(234);
+  cout<<"we can set the value of private data member :"<< mgobj.setterHealth()<<endl;    // it means we set the value of private data member
 
     return 0;
 }
