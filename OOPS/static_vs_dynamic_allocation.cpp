@@ -1,3 +1,5 @@
+// static and dynamic allocation
+
 #include <iostream>
 using namespace std;
 
