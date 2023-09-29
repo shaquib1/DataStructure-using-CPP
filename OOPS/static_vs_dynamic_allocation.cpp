@@ -1,4 +1,4 @@
-// static and dynamic allocation
+// static and dynamic allocation of creating object
 
 #include <iostream>
 using namespace std;
@@ -14,11 +14,11 @@ class Hero{
 
 int main(){
 
-    // static allocation 
+    // static allocation of creating object
     Hero obj;
 
 
-    // dynamic allocation
+    // dynamic allocation of creating object
     Hero *obj = new Hero;
 
     return 0;
