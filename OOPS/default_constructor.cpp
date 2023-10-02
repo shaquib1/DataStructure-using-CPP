@@ -1,27 +1,23 @@
 
-// when we create a class than same name as class a constructor create bydefault call default constructor
-// we can also create constructor
+// when we create a class than same name as class a constructor create bydefault called default constructor or A constructor which has no argument is known as default constructor
+// it is invoked at the time of object creation 
+// we can also create our constructor
 
 #include <iostream> 
 using namespace std;
 
-
-
 class Testing{
     public:
-    int data;
-
-
- private :
- string name;
+    Testing(){
+        cout<<"default constructor is called"<<endl;
+    }
+    
 };
 
 int main(){
 
-Testing obj;
- int ans = obj.data=345;
- cout<<ans;
-
+Testing myobj;   // here constructor called by default when we create object myobj 
+Testing a;
 
     return 0;
 }
