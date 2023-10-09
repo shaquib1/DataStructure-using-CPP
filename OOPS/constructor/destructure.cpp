@@ -43,7 +43,7 @@ int main(){
 
      // dynamic allocation to creating object
     // Hero *a1 = new Hero();      // for dynamic allocation destructure manually  called 
-     Hero *a2 = new Hero();
+     //Hero *a2 = new Hero();
 
     // delete a2;
 
