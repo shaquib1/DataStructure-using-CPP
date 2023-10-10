@@ -4,6 +4,7 @@
  // same name as class name
  // no  any return type
  // no input parameter
+ // same as it is called at once same as constructor
 
 
 
