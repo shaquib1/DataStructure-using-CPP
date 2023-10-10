@@ -28,11 +28,17 @@ class Account{
 };
 
 
-float Account::rateOfInterest=8.4;
+float Account::rateOfInterest=8.4;   // initializing the static fields outside the class and this method prefered
 
 int main(){
 
-  cout<<"rate of interest is="<<Account::rateOfInterest<<endl;
+  cout<<"rate of interest is="<<Account::rateOfInterest<<endl;   
+
+
+  // we also access the fields with the help of objects
+  //Account a;
+  //a.rateOfInterest = 9.43;
+  //cout<<"rate of interest="<<a.rateOfInterest<<endl;
 
     return 0;
 }
