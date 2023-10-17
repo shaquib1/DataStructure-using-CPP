@@ -15,10 +15,24 @@
 #include <iostream>
 using namespace std;
 
+class encapsulation{
 
+    public:
+   int age;
+   string name;
+   string location;
+
+
+   int details(int a){
+    return age=a;
+   }
+
+};
 
 int main(){
 
+ encapsulation obj;
+ obj.details(34);
 
     return 0;
 }
