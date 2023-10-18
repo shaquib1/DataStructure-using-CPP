@@ -6,7 +6,7 @@
 // fully encapsulated class-> when all datamembers are private then fully encapsulated achieved. so these datamembers are not accessed by other class .
 
 /* advantages -> 1. data hiding -> security increase
-                 2. if we want , we can make class " Read Only"
+                 2. if we want , we can make class " Read Only"  -> with the help of getter function 
                  3. code reuseability
                  4. encapsulation helps in Unit testing
 */
@@ -32,7 +32,8 @@ class encapsulation{
 int main(){
 
  encapsulation obj;
- obj.details(34);
+ cout<<obj.details(34);
 
     return 0;
 }
+
