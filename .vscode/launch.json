@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/DSA/OOPS/constructor",
-      "program": "d:/DSA/OOPS/constructor/build/Debug/outDebug",
+      "cwd": "d:/DSA/OOPS/inheritance",
+      "program": "d:/DSA/OOPS/inheritance/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
