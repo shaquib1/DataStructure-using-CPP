@@ -1,6 +1,9 @@
 
 // polymorphism means -> many forms 
 // polymorphism is a concept that allows us to perform a single action in different ways.
+
+// real-life example:
+
 // in real life example -> A person at the same time can have different characteristics. 
 // -> Like a man at the same time is a fater , a husband , a son , and an employee. so the same person have different behaior in different situation. called polymorphism.
 
