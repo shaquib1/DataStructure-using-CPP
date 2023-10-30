@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/DSA/OOPS/abstraction",
-      "program": "d:/DSA/OOPS/abstraction/build/Debug/outDebug",
+      "cwd": "d:/DSA/OOPS/encapsulation",
+      "program": "d:/DSA/OOPS/encapsulation/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
