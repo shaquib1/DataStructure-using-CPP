@@ -1,4 +1,7 @@
 
+//---------------  Access Modifier-----------------
+
+
 // it means data members where can be access inside class or outof class and scope of data member which describe the access modifires
 // There are three type of access modifires a> public b> private c> protected
 
