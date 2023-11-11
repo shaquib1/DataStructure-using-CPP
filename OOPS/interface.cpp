@@ -1,4 +1,15 @@
 
+//Yes, C++ supports interfaces. While C++ doesn't have a built-in keyword for interfaces, it does provide mechanisms to achieve similar functionality. 
+//Abstract classes and multiple inheritance are two key concepts that can be used to implement interfaces in C++.
+
+//Abstract Classes
+
+//An abstract class is a class that contains at least one pure virtual function. 
+//A pure virtual function is a function that has no implementation and is declared with the virtual=0 syntax. 
+//Classes that inherit from an abstract class must provide implementations for all of its pure virtual functions.
+
+
+
 
 #include<iostream>
 using namespace std;
