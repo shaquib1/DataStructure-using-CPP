@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/DSA/Pointer",
-      "program": "d:/DSA/Pointer/build/Debug/outDebug",
+      "cwd": "d:/DSA/OOPS/virtual_function_&_class",
+      "program": "d:/DSA/OOPS/virtual_function_&_class/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
