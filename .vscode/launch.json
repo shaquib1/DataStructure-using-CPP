@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/DSA/memory_allocation",
-      "program": "d:/DSA/memory_allocation/build/Debug/outDebug",
+      "cwd": "d:/DSA/Important_keyword",
+      "program": "d:/DSA/Important_keyword/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
