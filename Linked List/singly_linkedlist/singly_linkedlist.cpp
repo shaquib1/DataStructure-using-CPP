@@ -1,3 +1,10 @@
+
+// in this only one pointer to go 
+
+
+// Insertion of node in linkedlist 
+
+    
 #include <iostream>
 using namespace std;
 
