@@ -8,41 +8,15 @@
 //                3. Circular LL
 //                4. Circular Doubly LL
 
-
+// in a node there are two part 1. data
+//                              2. next -> address of next node
+                             
 
 // a node representation in code 
 
-// class LinkedListNode{
-//     public:
-//       int data;
-//       LinkedListNode *next;
-// };
-
-#include <iostream>
-using namespace std;
-
-class Node{
+class LinkedListNode{
     public:
-    int data;
-    Node* next;
-
-   // constructor
-    Node(int data){
-     this->data=data;
-     this->next=NULL;
-    }
+      int data;
+      LinkedListNode *next;
 };
 
-
-
-int main(){
-
-  //in this we create dynamically allocation object
-    
-  Node *node1 = new Node(12);
-  
-  cout<<node1->data<<endl;
-  cout<<node1->next<<endl;
-
-    return 0;
-}
