@@ -18,13 +18,12 @@ public:
     }
 };
 
-
 void insert_node_at_tail(Node *&tail, int d)
-{  
+{
     // create new node
-   Node* temp = new Node(d);
-    tail -> next = temp;
-    tail  = temp;
+    Node *temp = new Node(d);
+    tail->next = temp;
+    tail = temp;
 }
 
 // creare a print function which print likedlsit means traverse all linkedlist
@@ -51,7 +50,7 @@ int main()
 
     // head pointed to node1
     Node *head = node1;
-    Node* tail = node1;
+    Node *tail = node1;
     print(head);
 
     insert_node_at_tail(tail, 45);
