@@ -19,7 +19,7 @@ public:
 
 // create a insert_node_at_head function which insert new node at head of the linked list
 void insert_node_at_head(Node *&head, int data)
-{   // here in function we take reference because we don't create a copy of linkedlist
+{ // here in function we take reference because we don't create a copy of linkedlist
     // all changes occur in orginal linkedlist
     // create new node
     Node *temp = new Node(data);
@@ -51,7 +51,7 @@ int main()
 
     // head pointed to node1
     Node *head = node1;
-    //print(head);
+    print(head);
 
     insert_node_at_head(head, 45);
     print(head);
