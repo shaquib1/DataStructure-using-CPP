@@ -7,7 +7,7 @@ int main(){
 
 int check=0;
 
-    for(int i=0; i<arr.size();i++){
+    for(int i=0; i<arr.length();i++){
 
 check=check^arr[i];
 
