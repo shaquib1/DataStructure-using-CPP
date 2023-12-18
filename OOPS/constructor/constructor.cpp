@@ -29,7 +29,7 @@ class Myclass{
     public:    // Access specifier
 
    Myclass(){     // constructor  
-        cout<<"constructor created"
+        cout<<"constructor created";
   }
 };
 
