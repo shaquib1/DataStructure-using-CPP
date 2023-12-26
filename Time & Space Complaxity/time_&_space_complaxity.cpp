@@ -42,7 +42,7 @@
 // f(n) = 5n^4+3n^2 -> here 5 and 3 are constant and n^2 is lower degree so we ignore it 
 //               so its time complaxity -> O(n^4)
 
-// f() = 5n^2+logn -> time complaxity -> n^2
+// f(n ) = 5n^2+logn -> time complaxity -> n^2
 
 
 // ************* TLE -  time limit exceed**************  
@@ -52,7 +52,18 @@
 
 
 // time complaxity and constrant which you in all problem given in below of the problem: 
-// 
-//
-//
-//
+//  Constrant                time complaxity
+//   <=[10-11]                O(n!) , O(n^6)        
+//   <[15-18]                 O(2^n*n^2)
+//   <100                     O(n^4)
+//   <400                     O(n^3)
+//   <2000                    O(n^2*logn)
+//   <10^4                     O(n^2)
+//   <10^6                     O(nlogn)
+//   <10^8                     O(n) , O(logn)
+
+
+// Space Complaxity
+// total space taken by an algorithm which applied on a function
+// it means that in a program we create variable which is fixied size of complaxity O(1)
+// and we also create array and vector with variable size than its space complaxity occur other than if we crate a or more than one variable than its space complaxity normal which is O(1)
