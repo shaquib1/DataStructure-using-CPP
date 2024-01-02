@@ -4,10 +4,12 @@ using namespace std;
 
 int main(){
     
-     int numbers[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-int capacity = sizeof(numbers) / sizeof(numbers[0]);  // capacity will be 10
+     string s = "shaquib";
+     sort(s.begin() , s.end());
 
- cout<<sizeof(numbers[0])<<"and "<<sizeof(numbers);
+     for(int i=0; i<s.size(); i++){
+       cout<<s[i]<<" ";
+     }
 
     return 0;
 }
