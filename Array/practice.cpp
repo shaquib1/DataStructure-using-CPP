@@ -12,10 +12,19 @@ int main(){
     //  }
 
 
-     string s= "34bab986s";
-     sort(s.begin() , s.end());
+    //  string s= "34bab986s";
+    //  sort(s.begin() , s.end());
 
-     cout<<"string is:"<<s;
+    //  cout<<"string is:"<<s;
+
+
+    int s=0;
+    int b=12;
+
+    int c=s/b;
+
+    cout<<"ans is:"<<c;
+
 
 
 
