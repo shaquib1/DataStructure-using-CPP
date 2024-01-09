@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-bool isPrime(int num)
+bool isPrime(int num)    // a prime number is number who is divisible by 1 and itself;
 {
 
     for (int i = 2; i < num; i++)
