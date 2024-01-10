@@ -38,5 +38,7 @@ int main(){
         }
 
 
+    // cout<<"ans is:"<<19/3;
+
     return 0;
 }
