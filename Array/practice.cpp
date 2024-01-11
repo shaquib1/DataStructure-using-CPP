@@ -25,7 +25,7 @@ int main(){
 
     // cout<<"ans is:"<<c;
 
-    int arr[10]={2,54,343,43,554,2,54,43,33,23};
+    int arr[10]={1,2,3,4,5,6,6,7,8,9};
     int n=10;
     map<int,int>mp;
         for(int i=0;i<n;i++){
