@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Test.cpp"
+#include "class.cpp"
 using namespace std;
 
 int main(){

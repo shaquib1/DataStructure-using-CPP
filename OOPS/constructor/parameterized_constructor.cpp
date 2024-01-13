@@ -1,6 +1,6 @@
 
 
-// a constructor which has parameters is called parameterized constructor.
+// a constructor which have parameters is called parameterized constructor.
 // it is used to initialize the data members of an object to specific.
 
 #include <iostream>

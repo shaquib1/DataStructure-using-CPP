@@ -34,11 +34,15 @@ int main(){
 
       for(int i=0;i<n;i++){
            // if(mp[arr[i]]==1)return arr[i];
-            cout<<mp[arr[i]]<<" ";
+            cout<<mp[arr[i]]<<" "<<endl;
         }
 
 
     // cout<<"ans is:"<<19/3;
+
+
+    string s="shb";
+    cout<<"size of s:"<<sizeof(s);
 
     return 0;
 }

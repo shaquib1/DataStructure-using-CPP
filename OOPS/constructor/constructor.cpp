@@ -1,7 +1,8 @@
 
-// Cosntructor is a special method that is authomatically called when an object of a class is created.
+// constructor is invoke/called at object creation time and its no return type
+// Constructor is a special method that is authomatically called when an object of a class is created.
 // when we create an object then constructor called and the constructor is same as class name
-//to create a constructor , use the same name as the class, followed by parentheses()
+//to create a constructor , use the same name as the class, followed by parentheses()   
 
 /*some characteristic of constructor are:
 
@@ -35,7 +36,7 @@ class Myclass{
 
 int main(){
 
- Myclass myobj;    // create an object of myclass (this will call the construtor automatically)
+ Myclass myobj;    // create an object of myclass (this will call the Myclass construtor automatically)
 
 
     return 0;
