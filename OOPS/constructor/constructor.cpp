@@ -1,5 +1,5 @@
 
-// constructor is invoke/called at object creation time and its no return type
+// constructor is automatically invoke/called at object creation time and its no return type
 // Constructor is a special method that is authomatically called when an object of a class is created.
 // when we create an object then constructor called and the constructor is same as class name
 //to create a constructor , use the same name as the class, followed by parentheses()   

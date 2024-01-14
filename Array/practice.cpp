@@ -44,6 +44,9 @@ int main(){
     string s="shb";
     cout<<"size of s:"<<sizeof(s);
 
+    cout<<"ans is:"<<15/2;
+
+
     return 0;
 }
 

@@ -39,7 +39,7 @@ int main(){
      a.setterHealth(12);
     cout<<"health is:"<<a.getHealth()<<endl;
 
-    // dynamic allocation of creating object
+    // dynamic allocation of creating object 
     Hero *obj = new Hero;
     obj->setterHealth(432);
 
