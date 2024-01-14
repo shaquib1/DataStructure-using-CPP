@@ -5,20 +5,19 @@ using namespace std;
 // class is a user define data type or blueprint
 // object is an instance of class
 
-
-class test          // here test is the class
-{   
-    // bydefault all data members and member functions are private so we use public access modifier so we use data member out of the class               
+class test // here test is the class
+{
+    // bydefault all data members and member functions are private so we use public access modifier so we use data member out of the class
 public:            // public is the access modifier
-   // properties:
+                   // properties:
     string course; // data members
     int id;
 
-    int check()  // member function
-    { 
+    int check() // member function
+    {
         cout << "student is allowed in exam whose id is check in file";
     }
-};  
+};
 
 int main()
 {
