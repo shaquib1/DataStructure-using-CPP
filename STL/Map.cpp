@@ -41,3 +41,6 @@ int main()
 
     return 0;
 }
+
+
+// revise map for solving problems based on the array:
