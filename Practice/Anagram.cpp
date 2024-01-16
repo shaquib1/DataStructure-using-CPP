@@ -1,44 +1,41 @@
 #include <iostream>
 using namespace std;
 
+bool checkanagram(string str1, string str2)
+{
 
-bool checkanagram(string str1,string str2){
-   
-   
+   sort(str1.begin(), str2.end());
+   sort(str2.begin(), str2.end());
 
-   
-     sort(str1.begin(), str2.end());
-     sort(str2.begin(),str2.end());
+   for (int i = 0; i < num1; i++)
+   {
 
+      if (num1 = num2)
+   }
 
-     for(int i=0; i<num1; i++){
+   if (str1 = str2)
+      return true;
 
-        if (num1=num2)
-     }
-
-     if(str1=str2)
-        return true;
-     
-     else 
-        return false;
-     
-
+   else
+      return false;
 };
 
+int main()
+{
 
-int main(){
+   string str1 = "care";
+   string str2 = "rear";
 
-string str1="care";
-string str2="rear";
+   checkanagram(str1, str2);
 
-checkanagram(str1,str2);
+   if (checkanagram)
+   {
+      return true;
+   }
+   else
+   {
+      return false;
+   }
 
-if(checkanagram){
-    return true;
-}
-else{
-    return false;
-}
-
-return 0;
+   return 0;
 }
