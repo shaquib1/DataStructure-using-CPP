@@ -18,16 +18,16 @@ int binaryseach(int arr[], int size, int key)
         }
 
         // go to right part
-        if (key > arr[mid])    
+        if (key > arr[mid])
         {
-            start = mid + 1; 
+            start = mid + 1;
         }
-        else   //key less than mid than go to left part
+        else // key less than mid than go to left part
         {
             end = mid - 1;
         }
 
-        mid = (start + end) / 2;  // start + (end-start)/2
+        mid = (start + end) / 2; // start + (end-start)/2
     }
 
     return -1;
