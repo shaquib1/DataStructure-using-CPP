@@ -34,7 +34,7 @@ int main(){
 
       for(auto i:mp){
            // if(mp[arr[i]]==1)return arr[i];
-            cout<<i.first<<" ";
+            cout<<i.second<<" ";
         }
 
 

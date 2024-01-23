@@ -3,8 +3,7 @@
 // it is very important topic for solving problems for arrays
 // it is a key value pair data structure
 
-#include <iostream>
-#include <map>
+#include <bits/stdc++.h>
 using namespace std;
 
 // int main()
@@ -48,9 +47,9 @@ using namespace std;
 int main(){
 
 
- int arr[5]={3 , 4 , 5 ,6 ,4};
+ int arr[5]={3 , 4 , 3 ,6 ,4};
  int n=5;
-  map<int, int>m;
+   unordered_map<int,int>m;
   for(int i=0; i<n; i++){
     m[arr[i]]++;
   }
