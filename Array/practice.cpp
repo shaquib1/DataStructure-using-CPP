@@ -25,7 +25,7 @@ int main()
 
     int arr[10] = {1, 2, 3, 4, 5, 6, 6, 3, 8, 9};
     int n = 10;
-    unordered_map<int, int> mp;
+    map<int, int> mp;
     for (int i = 0; i < n; i++)
     {
         mp[arr[i]]++;
