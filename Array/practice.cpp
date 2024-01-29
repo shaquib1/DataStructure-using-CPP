@@ -23,19 +23,19 @@ int main()
 
     // cout<<"ans is:"<<c;
 
-    int arr[10] = {1, 2, 3, 4, 5, 6, 6, 3, 8, 9};
-    int n = 10;
-    map<int, int> mp;
-    for (int i = 0; i < n; i++)
-    {
-        mp[arr[i]]++;
-    }
+    // int arr[10] = {1, 2, 3, 4, 5, 6, 6, 3, 8, 9};
+    // int n = 10;
+    // unordered_map<int, int> mp;
+    // for (int i = 0; i < n; i++)
+    // {
+    //     mp[arr[i]]++;
+    // }
 
-    for (auto i : mp)
-    {
-        // if(mp[arr[i]]==1)return arr[i];
-        cout << i.second << " ";
-    }
+    // for (auto i : mp)
+    // {
+    //     // if(mp[arr[i]]==1)return arr[i];
+    //     cout << i.second << " ";
+    // }
 
     // cout<<"ans is:"<<19/3;
 
@@ -43,6 +43,14 @@ int main()
     // cout<<"size of s:"<<sizeof(s);
 
     // cout<<"ans is:"<<15/2;
+
+ string str = "sh2h9h3";
+ int sum;
+ for(int i=0; i<str.size(); i++){
+     sum = str[i];;;
+ }
+ cout<<"sum is: "<<sum;
+
 
     return 0;
 }
