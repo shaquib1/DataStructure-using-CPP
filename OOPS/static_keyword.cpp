@@ -6,9 +6,11 @@
 // without creating object we can access static datamembers or fields
 // static data member initialize out of the class with the help of (::)->scope resolution operator
 
-// we can also access the static datamember with the help of object but static keyword is belongs to the class so we access with the help of class
+// we can also access the static datamember with the help of object but static keyword is belongs to the class so we
+// access with the help of class
 
-//advantage=> Memory efficient-> because we can access the static fields without creating object. so we don't need to create object for accessing static members,
+//advantage=> Memory efficient-> because we can access the static fields without creating object. so we don't need to 
+//create object for accessing static members,
 // so it save the memory 4-8 byte
 
 

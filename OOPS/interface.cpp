@@ -1,5 +1,6 @@
 
-//Yes, C++ supports interfaces. While C++ doesn't have a built-in keyword for interfaces, it does provide mechanisms to achieve similar functionality. 
+//Yes, C++ supports interfaces. While C++ doesn't have a built-in keyword for interfaces, it does provide mechanisms
+// to achieve similar functionality. 
 //Abstract classes and multiple inheritance are two key concepts that can be used to implement interfaces in C++.
 
 //Abstract Classes
