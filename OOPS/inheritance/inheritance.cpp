@@ -6,7 +6,7 @@
 //The derived class now is said to be inherited from the base class.
 
 //--------- real life example -------------
-//     -> like a chile inherit some properties from its parent so its eyes, nose likes its father
+//     -> like a child inherit some properties from its parent so its eyes, nose likes its father
 
 
 //Why and when to use inheritance?

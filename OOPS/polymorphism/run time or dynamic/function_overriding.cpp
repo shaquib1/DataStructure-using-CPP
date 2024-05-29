@@ -1,6 +1,6 @@
 
 
-// Method overriding is a feature that allows you to redefine the parent class method in hte child class based on the 
+// Method overriding is a feature that allows you to redefine the parent class method in the child class based on the 
 //its requirement.
 // Rules for method overriding 
 // -> the parent class method and the method of the child class must have the same name
