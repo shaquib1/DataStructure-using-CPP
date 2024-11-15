@@ -1,4 +1,5 @@
 
+
 // -------- Encapsulation  means->synonyms-> information hiding or data hiding-------
 
 // wrapping up the datamembers and functions inside a single entity(class)

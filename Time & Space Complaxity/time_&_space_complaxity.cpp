@@ -1,5 +1,5 @@
 
-// Time complaxity - it is the amount of the time taken by an algorithm to run
+// Time complaxity - it is the amount of time taken by an algorithm to run
 //                  --> as a function of length of the input
 
 // why->

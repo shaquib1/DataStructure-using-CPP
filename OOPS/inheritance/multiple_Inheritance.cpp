@@ -25,15 +25,16 @@
 
 // C++ program to explain 
 // multiple inheritance 
+//Multiple Inheritance: Multiple Inheritance is a feature of C++ 
+//where a class can inherit from more than one class. 
+//i.e one subclass is inherited from more than one base class.
 #include <iostream> 
 using namespace std; 
-
 // first base class 
 class Vehicle { 
 public: 
 	Vehicle() { cout << "This is a Vehicle\n"; } 
 }; 
-
 // second base class 
 class FourWheeler { 
 public: 
@@ -42,11 +43,9 @@ public:
 		cout << "This is a 4 wheeler Vehicle\n"; 
 	} 
 }; 
-
 // sub class derived from two base classes 
 class Car : public Vehicle, public FourWheeler { 
 }; 
-
 // main function 
 int main() 
 { 

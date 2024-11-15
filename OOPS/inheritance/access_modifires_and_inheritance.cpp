@@ -1,7 +1,8 @@
 
 // Mode of inheritance 
 
-// 1. Public mode:If we derive a subclass from a publicbase class. Then, the base class’s public members will become public in the derived class, 
+// 1. Public mode:If we derive a subclass from a publicbase class. Then, the base class’s public members will become public
+// in the derived class, 
 //    and protected class members will become protected in the derived class.
 
 

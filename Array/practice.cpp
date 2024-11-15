@@ -47,7 +47,7 @@ int main()
  string str = "sh2h9h3";
  int sum;
  for(int i=0; i<str.size(); i++){
-     sum = str[i];;;
+     sum = str[i];
  }
  cout<<"sum is: "<<sum;
 
